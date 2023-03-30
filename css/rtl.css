@@ -1,0 +1,103 @@
+
+body {
+	direction:rtl;
+	text-align:right;
+}
+@font-face{
+   font-family:'WYekan';
+      src:url('../fonts/yekan-webfont.eot?#') format('eot'),
+		  url('../fonts/yekan-webfont.woff') format('woff'),
+          url('../fonts/yekan-webfont.ttf') format('truetype');
+}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 800;
+		line-height: 1.5;
+		margin: 0 0 0.7em 0;
+		letter-spacing: initial;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h1 {
+		font-size: 2.5em;
+		line-height: 1.2;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		h1 {
+			font-size: 2em;
+		}
+
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+	sup {
+		font-size: 0.8em;
+		position: relative;
+		top: -0.5em;
+	}
+
+	blockquote {
+		border-left: none;
+		border-right: solid 4px;
+		font-style: italic;
+		margin: 0 0 2em 0;
+		padding: 0.5em 2em 0.5em 0;
+	}
+
+	hr {
+		border: 0;
+		border-bottom: solid 1px;
+		margin: 2em 0;
+	}
+
+		hr.major {
+			margin: 3em 0;
+		}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+
+	code {
+		direction:ltr;
+		text-align:left;
+	}
